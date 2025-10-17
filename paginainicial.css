@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Titulo";
+    src: url("Fontes/MeowScript-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0:#FED8D2;
+    --cor1:#40211E;
+    --cor2:#FF3D7F;
+    --cor3:#F2E0D0;
+    --cor4:#202026;
+    --font1: 
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+header{
+   background-color: var(--cor0);
+   padding: 10px;
+   box-shadow: 3px, 5px, 0px, var(--cor4);
+   
+   h1{
+        font-family: "Titulo", 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        
+    }
+
+}
